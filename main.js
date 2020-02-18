@@ -6,7 +6,6 @@ client.login(secret.token);
 
 client.on("ready",()=>{
     console.log("Online");
-    client.user.setActivity("US elections");
 });
 
 client.on("message",msg=>CommandManager.handleMessage(msg, client));
