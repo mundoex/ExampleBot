@@ -1,5 +1,5 @@
 const CommandManager=require("./CommandManager");
-const secret = require("./secret.json");
+const secret = require("./secret.json");//file with your bot credentials/token/etc
 const discord = require("discord.js");
 const client = new discord.Client();
 client.login(secret.token);

@@ -39,7 +39,7 @@ const responses = [
     "Great question. Just wonderful. I love it. Ask me again.",
     "Huh. Never thought of it that way. I'll sleep on it and get back to you tomorrow, 'k?",
 ];
-
+//get the optional parameters in the params variable
 function shake(msg,client,params) {
     if(params.times){
         for(var i=0;i<params.times;i++){
